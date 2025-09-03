@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom utilities */
+.hero-overlay {
+  background: linear-gradient(135deg, rgba(25,42,86,0.7), rgba(39,60,117,0.7));
+}
+.trust-overlay {
+  background: linear-gradient(135deg, rgba(25,42,86,0.8), rgba(39,60,117,0.8));
+}
+
+/* small accessibility helper */
+.selectable { user-select: text; }

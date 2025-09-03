@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aziz.com.bd/sitemap.xml

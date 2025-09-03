@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Aziz & Associates | Expert Tax & VAT Law Firm in Bangladesh</title>
+  <meta name="description" content="Led by ITP Abdul Aziz, Aziz & Associates is a premier tax law firm in Bangladesh. We provide services for TIN, VAT, income tax returns and appeals.">
+  <link rel="canonical" href="https://aziz.com.bd/en/">
+  <link rel="alternate" hreflang="en" href="https://aziz.com.bd/en/">
+  <link rel="alternate" hreflang="bn" href="https://aziz.com.bd/">
+  <link rel="stylesheet" href="/assets/css/output.css">
+  <!-- minimal JSON-LD for article + sameAs -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {"@type":"WebSite","@id":"https://aziz.com.bd/en/#website","name":"Aziz & Associates","url":"https://aziz.com.bd/en/"},
+      {"@type":"LegalService","@id":"https://aziz.com.bd/en/#legalservice","name":"Aziz & Associates","telephone":"+8801711479659","address":{"@type":"PostalAddress","addressLocality":"Savar","addressRegion":"Dhaka","addressCountry":"BD"}}
+    ]
+  }
+  </script>
+</head>
+<body class="bg-brand-cream text-brand-charcoal font-sans">
+  <header class="bg-brand-navy text-white sticky top-0 z-40">
+    <div class="container mx-auto px-6 flex items-center justify-between h-20">
+      <a href="/en/" class="flex items-center gap-4">
+        <img src="/assets/images/logo.png" alt="Aziz & Associates" width="48" height="48" class="h-12 w-12">
+        <span class="text-xl font-brand font-bold">Aziz & Associates</span>
+      </a>
+      <nav class="hidden md:flex gap-8">
+        <a href="#home" class="hover:text-brand-gold">Home</a>
+        <a href="#about" class="hover:text-brand-gold">About</a>
+        <a href="#services" class="hover:text-brand-gold">Services</a>
+        <a href="#contact" class="hover:text-brand-gold">Contact</a>
+        <a href="/" class="hover:text-brand-gold">বাংলা</a>
+      </nav>
+      <button id="mobile-toggle-en" class="md:hidden">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="relative min-h-screen flex items-center">
+      <picture class="absolute inset-0 -z-10">
+        <source srcset="/assets/images/hero-background.webp" type="image/webp">
+        <img src="/assets/images/hero-background.jpg" alt="Hero background" class="w-full h-full object-cover" loading="lazy" decoding="async">
+      </picture>
+      <div class="absolute inset-0 hero-overlay"></div>
+      <div class="container mx-auto px-6 text-center text-white relative z-10">
+        <h1 class="text-4xl md:text-6xl font-serif font-bold mb-4">Your Trusted Partner in Tax Law</h1>
+        <p class="mb-8 max-w-3xl mx-auto">Expert guidance in TIN, VAT, and Income Tax matters for businesses and individuals across Bangladesh.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="#services" class="bg-brand-gold text-brand-navy font-bold py-3 px-8 rounded">Explore Services</a>
+          <a href="#contact" class="border border-white py-3 px-8 rounded">Get Consultation</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- (About, Services, Testimonials, Contact same structure — English text) -->
+
+  </main>
+
+  <footer class="bg-brand-navy text-white py-6">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy; 2025 Aziz & Associates. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('mobile-toggle-en')?.addEventListener('click', function(){
+      const nav = document.querySelector('nav');
+      if(nav) nav.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
